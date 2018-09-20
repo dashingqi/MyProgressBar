@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.zhangqi.myprogressbar.MyProgressBar
+        android:id="@+id/myProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:padding="5dp"
+        android:max="100"
+        android:progress="0"
+        app:progress_reach_color="@color/red"
+        app:progress_unreach_color="@color/yellow"
+        app:progress_text_color="@color/red"
+        app:progress_text_size="18sp"
+        />
+
+</RelativeLayout>
